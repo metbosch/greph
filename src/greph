@@ -1,0 +1,12 @@
+#!/bin/bash
+
+## Load the history
+HISTFILE=~/.bash_history
+set -o history
+
+## If no argument, show all history
+if [ -z "$1" ]; then
+   history
+else
+   history | grep ${1}
+fi
