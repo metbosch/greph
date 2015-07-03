@@ -7,8 +7,8 @@ INSTALLATON
 -----------
 
 - Download the script file
-- Add execute permitssions
+- Add execution permissions
    ```
    chmod +x greph
    ```
-- Copy the file in your PATH folder
+- Copy the script file into your PATH folder
